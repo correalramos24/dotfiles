@@ -1,1 +1,30 @@
+Host mn1
+  HostName mn1.bsc.es
+  User bsc32756
+  IdentityFile ~/.ssh/id_rsa
 
+Host mn2
+  HostName mn2.bsc.es
+  User bsc32756
+
+Host mn3
+  HostName mn3.bsc.es
+  User bsc32756
+
+Host dt1
+  HostName dt01.bsc.es
+  User bsc32756
+
+Host dt2
+  HostName dt02.bsc.es
+  User bsc32756
+
+Host as01
+  HostName bscesautosubmit01.bsc.es
+  User vcorreal
+  IdentityFile ~/.ssh/id_rsa
+
+Host as02
+  HostName bscesautosubmit02.bsc.es
+  User vcorreal
+  IdentityFile ~/.ssh/id_rsa
