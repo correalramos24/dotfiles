@@ -3,6 +3,12 @@ Host mn1
   User bsc32756
   IdentityFile ~/.ssh/id_rsa
 
+Host mn0
+  HostName mn0.bsc.es
+  User bsc32756
+  IdentityFile ~/.ssh/id_rsa
+  ForwardX11 yes
+
 Host mn2
   HostName mn2.bsc.es
   User bsc32756
@@ -27,4 +33,4 @@ Host as01
 Host as02
   HostName bscesautosubmit02.bsc.es
   User vcorreal
-  IdentityFile ~/.ssh/id_rsa
+  IdentityFile ~/.ssh/id_rsa.pub
