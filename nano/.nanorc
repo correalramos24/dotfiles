@@ -1,0 +1,11 @@
+include "/usr/share/nano/c.nanorc"
+include "/usr/share/nano/perl.nanorc"
+include "/usr/share/nano/sh.nanorc"
+include "~/.markdown_syn.nanorc"
+include "~/.cmake.nanorc"
+
+set mouse
+set showcursor
+set linenumbers
+
+
